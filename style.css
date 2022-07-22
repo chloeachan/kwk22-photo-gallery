@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Syne&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #81995c;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.title {
+  font-family: Syne;
+  font-size: 40px;
+}
+
+.description {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
+  margin: -30px;
+}
+
+.title, .description {
+  color: white;
+}
+
+.gallery {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: normal;
+  flex-flow: row wrap;
+}
+
+img {
+  padding: 10px;
+  height: auto;
+  width: auto;
+  max-height: 200px; 
+  max-width: 200px; 
+}
